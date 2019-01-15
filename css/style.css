@@ -1,0 +1,341 @@
+/*====================
+White #FFFFFF
+Gris #BFBFBF
+Yellow #F4C613
+Orange #FFA454
+Black #2B2B2B
+Overlay background-color: rgba(0,0,0,0.1);
+Font Oswald:300,400,600
+Raleway
+=====================*/
+
+/*====================
+    General CSS
+=====================*/
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #FFA454;
+}
+
+ul,
+li {
+    color: #FFF;
+    list-style: none;
+}
+
+/*====================
+    Generic section
+=====================*/
+.generic-title {
+    margin-bottom: 25px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*====================
+    Home
+=====================*/
+
+#home {
+    height: 100%;
+
+
+}
+
+.home-cover {
+   
+    height:100% ;
+    background-image:url(../img/background/programming-1873854_1280.png);
+    background-color:#6c757d;
+    background-blend-mode:overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.home-cover:hover{
+    background-color:;
+}
+.home-box {
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    right: 0;
+    bottom: 0px;
+    left: 0;
+    width: 400px;
+    height: 200px;
+}
+
+p {
+    color: black;
+}
+
+.home-box h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    /* padding: 0 20px 0 20px; */
+    color: #FFA454;
+}
+
+.home-box p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 10px 0 20px 20px;
+    text-align: justify;
+    padding: 15px 0px 20px 10px;
+}
+
+
+/*====================
+    Button home
+=====================*/
+.btn-home {
+    background: #BFBFBF;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    transition: all 1s;
+}
+
+.btn-home:hover {
+    background: #FFA454;
+}
+
+.btn-home:focus {
+    background: #2B2B2B;
+    color: #FFA454;
+}
+
+
+/*====================
+     About section
+=====================*/
+.about-descrip {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about-img {
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin: 20px 20px;
+
+}
+
+.about-img img {
+    border-radius: 50%
+}
+
+.about-content h3 {
+    margin: 5px 5px;
+    padding: 15px 15px;
+    text-align: center;
+    font-weight: 600;
+    color: #FFA454;
+    text-transform: uppercase;
+}
+
+.about-content p {
+    display: block;
+    margin: 0px 0px 0px 32px;
+    font-weight: 300;
+    padding-bottom: 30px;
+    color: #2B2B2B;
+
+}
+
+.about-icon {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.about-number {
+    display: inline-block;
+}
+
+.icon-big {
+    color: #FFA454;
+}
+
+.icon-big:hover {
+    color: #2B2B2B;
+}
+
+.about-number {
+    font-family: "Oswal", sans-serif;
+    font-weight: 600;
+}
+
+
+/*====================
+    Services
+=====================*/
+.services-cover {
+   
+    height:100%;
+    background-image: url(../img/background/programming-1873854_1280.png);
+    background-color:#495057;
+    background-blend-mode:overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.services-cover:hover{
+    background-color:#212529;
+}
+
+section#services {
+
+    margin: 40px 0;
+}
+
+
+.servi-title h3 {
+    font-size: 25px;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 300;
+}
+h3.serv-margin {
+    margin-bottom: 100px;
+    padding: 20px;
+}
+.servi-title p {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color:#F4C613;
+}
+.servi-text p {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: justify;
+    margin-top: 25px;
+    color: #FFFFFF;
+    font-family: 'Raleway',sans-serif;
+   
+}
+.serv-butt {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.btn-mystyle {
+    margin-top: 20px;
+    color: #FFFFFF;
+    background-color: #BFBFBF;
+}
+ul.servi-ul {
+    padding: 0;
+}
+/*====================
+    Portfolio section
+=====================*/
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+section#portfolio {
+    margin-top: 60px;
+}
+
+.row.no-gutters [class*=col-] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.wrap-img {
+    overflow: hidden;
+}
+
+.wrap-img img {
+    transition: transform .5s ease;
+    cursor: zoom-in;
+}
+
+.wrap-img img:hover {
+    transform: scale(1.5);
+
+}
+
+/*====================
+    Team section
+=====================*/
+.wrapper-team h3 {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center
+}
+
+.wrapper-team p {
+    font-size: 17px;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+/*====================
+    Navigation
+=====================*/
+
+
+a.navbar-brand img{
+    
+}
+
+
+.develop-nav {
+    padding-left: 50%;
+    
+}
+
+
+a.nav-link {
+    color: #FFA454;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+a.nav-link:hover{
+    color: #F4C613;
+    font-size: 21px;
+}
+
+a.nav-link.active {
+    color: #F4C613;
+}
+
+.nav-custom {
+    background-color:#2B2B2B;
+}
+
+
+
+
+
+
